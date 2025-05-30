@@ -12,10 +12,10 @@
 ## 專案結構
 
 ```
-project_gutenberg/
+ProjectGutenberg/
 ├── README.md
 ├── gutenberg.ipynb
-├── 中文書籍資料夾/ （爬取到的 .txt 中文書籍將儲存在此資料夾）
+├── project_gutenberg/ （爬取到的 .txt 中文書籍將儲存在此資料夾）
 ```
 
 ## 功能流程
@@ -34,11 +34,11 @@ project_gutenberg/
 
 ### 錯誤處理
 
-1. 程式會自動過濾從 Project Gutenberg 獲取的書名中包含的非法字元（如 `/ \ : * ? " < > | \r \n`），確保生成的檔案名稱是合法的。
+1. 程式會自動過濾獲取的書名中包含的非法字元（如 `/ \ : * ? " < > | \r \n`），確保生成的檔案名稱是合法的。
 2. 下載連結檢查：若某本書籍無法找到其 `.txt.utf-8` 下載連結，程式會自動跳過該書並印出提示訊息，繼續處理下一本書籍。
 
 ## 成果影片連結
 
-[點我觀看](https://drive.google.com/file/d/1THbZ4ekJA5E0GLtxnK1HXSN-N2SZX63b/view?usp=sharing)
+[點我觀看](https://drive.google.com/file/d/1THbZ4ekJA5E0GLtxnK1HXSn-N2SZX63b/view?usp=sharing)
 
 
